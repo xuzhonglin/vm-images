@@ -25,7 +25,7 @@ CORES=2
 DISK_SIZE="10G"
 
 RELEASE="latest"
-GH_REPO="${GH_REPO:-gclm/vm-images}"
+GH_REPO="${GH_REPO:-xuzhonglin/vm-images}"
 IMAGE_URL=""
 SHA256=""
 SHA256_URL=""
@@ -62,7 +62,7 @@ show_help() {
   --cores N          CPU 核心数 (默认: 2)
   --disk-size SIZE   磁盘大小 (默认: 10G)
   --release TAG      GitHub Release 标签 (默认: latest)
-  --repo OWNER/REPO  GitHub 仓库 (默认: gclm/vm-images)
+  --repo OWNER/REPO  GitHub 仓库 (默认: xuzhonglin/vm-images)
   --image-url URL    直接指定 qcow2 下载地址（优先级最高）
   --sha256 HASH      显式指定镜像 SHA256（64位十六进制）
   --sha256-url URL   指定 SHA256 文件下载地址

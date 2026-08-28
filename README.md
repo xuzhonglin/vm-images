@@ -55,7 +55,7 @@
 常见参数：
 
 - `--release <tag>`: 选择 Release 版本（默认 `latest`）
-- `--repo <owner/repo>`: 默认 `gclm/vm-images`
+- `--repo <owner/repo>`: 默认 `xuzhonglin/vm-images`
 - `--image-url <url>`: 直接指定 qcow2 下载链接
 - `--sshkey-file <path>`: 可选，给模板预置 key（通常建议在克隆实例阶段再设置）
 - `--cicustom user=...`: 可选，不建议与 GUI `ciuser/sshkeys` 混用
